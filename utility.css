@@ -5,11 +5,11 @@ h1{
 }
 
 h2{
-    font: var(--text-md);
+    font: var(--title-md);
 }
 
 h3 {
-    font: var(--text-sm);
+    font: var(--title-sm);
 }
 
 .subtitle {

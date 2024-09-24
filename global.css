@@ -37,11 +37,13 @@ header {
     display: grid;
     grid-template-rows: auto;
     justify-items: center;
+    align-items: center;
 }
 
 #photo {
     position: absolute;
     left: 5px;
+    right: 10px;
 }
 
 #avatar {
