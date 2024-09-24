@@ -27,26 +27,28 @@
     --text-sm: 600 14px/140% var(--font-family-maven-pro);
 }
 
-h1{
-    font: var(--title-lg);
+body {
+    background-image: url(assets/images/Background_Intro.png);
+    background-size: cover;
+    
 }
 
-h2{
-    font: var(--text-md);
+header {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
 }
 
-h3 {
-    font: var(--text-sm);
+#photo {
+    position: absolute;
+    left: 5px;
 }
 
-.subtitle {
-    font: var(--subtitle)
+#avatar {
+    position: relative;
 }
 
-.textMd {
-    font: var(--text-md)
+span {
+    color: var(--red)
 }
 
-.textSm {
-    font: var(--text-sm)
-}
