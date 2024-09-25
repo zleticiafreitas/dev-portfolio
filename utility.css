@@ -1,3 +1,10 @@
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
 
 h1{
     font: var(--title-lg);
@@ -13,13 +20,13 @@ h3 {
 }
 
 .subtitle {
-    font: var(--subtitle)
+    font: var(--subtitle);
 }
 
 .textMd {
-    font: var(--text-md)
+    font: var(--text-md);
 }
 
 .textSm {
-    font: var(--text-sm)
+    font: var(--text-sm);
 }

@@ -24,13 +24,19 @@
     --title-sm: 800 16px/120% var(--font-family-asap);
     --subtitle: 600 20px/120% var(--font-family-inconsolata);
     --text-md: 600 16px/140% var(--font-family-maven-pro);
-    --text-sm: 600 14px/140% var(--font-family-maven-pro);
+    --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
 
 body {
     background-image: url(assets/images/Background_Intro.png);
     background-size: cover;
     
+}
+
+#Info {
+    box-sizing: content-box;
+    padding: 120px 163px 183px 163px;
+    max-width: 1040px;
 }
 
 header {
@@ -43,14 +49,22 @@ header {
 #photo {
     position: absolute;
     left: 5px;
-    right: 10px;
 }
 
 #avatar {
     position: relative;
 }
 
+.subtitle {
+    color: var(--gray-500);
+}
+
 span {
-    color: var(--red)
+    color: var(--red);
+}
+
+.textSm {
+    text-align: center;
+    color: var(--gray-400);
 }
 
