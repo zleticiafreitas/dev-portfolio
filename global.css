@@ -27,9 +27,41 @@
     --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
 
-#info {
+body {
+    background-color: #16181D;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgroundInfo {
     background-image: url(assets/images/Background_Intro.png);
     background-size: cover;
+}
+
+.backgroundProjects {
+    background-color: #16181D;
+    background-size: cover;
+}
+
+#info {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
     box-sizing: content-box;
     padding: 120px 163px 183px 163px;
     max-width: 1040px;
@@ -37,13 +69,6 @@
 
 #presentation {
     max-width: 680px;
-}
-
-header {
-    display: grid;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
 }
 
 .avatar {
@@ -130,8 +155,24 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 94px;
+    margin-bottom: 57px;
 }
 
 #projects {
-    background-color: #16181D;
+
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+    }
+
+    p, h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.card {
+    width: 100%;
 }
