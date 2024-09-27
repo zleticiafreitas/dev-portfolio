@@ -13,6 +13,7 @@ h1{
 
 h2{
     font: var(--title-md);
+    color: var(--gray-600);
 }
 
 h3 {
@@ -21,6 +22,7 @@ h3 {
 
 .subtitle {
     font: var(--subtitle);
+    color: var(--gray-500);
 }
 
 .textMd {
