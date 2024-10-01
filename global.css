@@ -50,10 +50,16 @@ section {
 .backgroundInfo {
     background-image: url(assets/images/Background_Intro.png);
     background-size: cover;
+    width: 100%;
 }
 
 .backgroundProjects {
     background-color: #16181D;
+    background-size: cover;
+}
+
+.backgroundServices {
+    background-color: #0D0E11;
     background-size: cover;
 }
 
@@ -63,8 +69,8 @@ section {
     justify-items: center;
     align-items: center;
     box-sizing: content-box;
-    padding: 120px 163px 183px 163px;
-    max-width: 1040px;
+    padding-top: 57px;
+    /* max-width: 1040px; */
 }
 
 #presentation {
@@ -164,15 +170,33 @@ span {
         width: 306px;
         height: 156px;
         border-radius: 8px;
+        margin-bottom: 20px;
     }
 
-    p, h2 {
+    .subtitle, h2 {
         display: flex;
         justify-content: center;
+    }
+    
+    .card {
+        width: 100%;
+        align-content: center;
+        padding: 12px;
+
+        p, h3 {
+            text-align: left;
+            padding: 4px;
+            width: 298px;
+        }
     }
 
 }
 
-.card {
-    width: 100%;
+#services {
+    margin: 88px 120px 120px 120px;
+
+    .subtitle, h2 {
+        display: flex;
+        justify-content: center;
+    }
 }
