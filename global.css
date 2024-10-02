@@ -1,202 +1,222 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --red: #E3646E;
-    --purple: #BB72E9;
-    --blue: #3996DB;
-    --green: #82BC4F;
-    --yellow: #EABD5F;
-    --gray-100: #0D0E11;
-    --gray-200: #16181D;
-    --gray-300: #292C34;
-    --gray-400: #878EA1;
-    --gray-500: #C0C4CE;
-    --gray-600: #E2E4E9;
-    --font-family-asap: 'Asap', sans-serif;
-    --font-family-inconsolata: 'Inconsolata', sans-serif;
-    --font-family-maven-pro: 'Maven Pro', sans-serif;
-    --title-lg: 800 56px/120% var(--font-family-asap);
-    --title-md: 800 24px/120% var(--font-family-asap);
-    --title-sm: 800 16px/120% var(--font-family-asap);
-    --subtitle: 600 20px/120% var(--font-family-inconsolata);
-    --text-md: 400 16px/140% var(--font-family-maven-pro);
-    --text-sm: 400 14px/140% var(--font-family-maven-pro);
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", sans-serif;
+  --font-family-maven-pro: "Maven Pro", sans-serif;
+  --title-lg: 800 56px/120% var(--font-family-asap);
+  --title-md: 800 24px/120% var(--font-family-asap);
+  --title-sm: 800 16px/120% var(--font-family-asap);
+  --subtitle: 600 20px/120% var(--font-family-inconsolata);
+  --text-md: 400 16px/140% var(--font-family-maven-pro);
+  --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
 
 body {
-    background-color: #16181D;
-    color: white;
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  background-color: #16181d;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 section {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .backgroundInfo {
-    background-image: url(assets/images/Background_Intro.png);
-    background-size: cover;
-    width: 100%;
+  background-image: url(assets/images/Background_Intro.png);
+  background-size: cover;
+  width: 100%;
 }
 
 .backgroundProjects {
-    background-color: #16181D;
-    background-size: cover;
+  background-color: #16181d;
+  background-size: cover;
 }
 
 .backgroundServices {
-    background-color: #0D0E11;
+  background-color: #0d0e11;
+  background-size: cover;
+  height: 480px;
+  align-content: center;
+}
+
+.backgroundContact {
+    background-image: url(assets/images/Background_Contacts.png);
     background-size: cover;
+    width: 100%;
 }
 
 #info {
-    display: grid;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-    box-sizing: content-box;
-    padding-top: 57px;
-    /* max-width: 1040px; */
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  box-sizing: content-box;
+  padding-top: 57px;
+  /* max-width: 1040px; */
 }
 
 #presentation {
-    max-width: 680px;
+  max-width: 680px;
 }
 
 .avatar {
-    height: 112px;
-    position: relative;
-    aspect-ratio: 1/1;
+  height: 112px;
+  position: relative;
+  aspect-ratio: 1/1;
 }
 
 .photo {
-    padding: 6px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  padding: 6px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .border {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .code {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  bottom: 0;
+  right: 0;
 }
 
 .imgPhoto, .imgBorder {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .imgCode {
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
 }
 
 #helloWorld {
-    margin-top: 56px;
-    margin-bottom: 8px;
-    text-shadow: #000 1px 1px 4px;
+  margin-top: 56px;
+  margin-bottom: 8px;
+  text-shadow: #000 1px 1px 4px;
 }
 
 #presentation {
-    margin-top: 20px;
-    margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .subtitle {
-    color: var(--gray-500);
+  color: var(--gray-500);
 }
 
 span {
-    color: var(--red);
+  color: var(--red);
 }
 
 .textSm {
-    text-align: center;
-    color: var(--gray-400);
+  text-align: center;
+  color: var(--gray-400);
 }
 
 .tagRow {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .tag {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    gap: 8px;
-    color: var(--gray-500);
-    background-color: var(--gray-300);
-    padding: 8px 16px;
-    border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 8px;
+  color: var(--gray-500);
+  background-color: var(--gray-300);
+  padding: 8px 16px;
+  border-radius: 999px;
 }
 
 .arrowDown {
-    display: flex;
-    justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 57px;
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 57px;
 }
 
 #projects {
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
 
-    img {
-        width: 306px;
-        height: 156px;
-        border-radius: 8px;
-        margin-bottom: 20px;
+  .subtitle, h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardProjects {
+    width: 100%;
+    align-content: center;
+    padding: 12px;
+
+    p, h3 {
+      text-align: left;
+      padding: 4px;
+      width: 298px;
     }
-
-    .subtitle, h2 {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .card {
-        width: 100%;
-        align-content: center;
-        padding: 12px;
-
-        p, h3 {
-            text-align: left;
-            padding: 4px;
-            width: 298px;
-        }
-    }
-
+  }
 }
 
 #services {
-    margin: 88px 120px 120px 120px;
+  margin: 88px 120px 120px 120px;
 
-    .subtitle, h2 {
-        display: flex;
-        justify-content: center;
-    }
+  .subtitle, h2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .cardServices {
+    position: absolute;
+    width: 100%;
+    align-content: left;
+    border: 1px solid;
+
+    p, h3 {
+        text-align: left;
+        padding: 4px;
+        width: 298px;
+      }
+  }
 }
